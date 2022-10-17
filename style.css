@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-width: 100vw;
+    background-color: rgb(192, 218, 241);
+    min-height: 100vh;
+    /* display: flex; */
+}
+#left{
+    background-color: rgb(158, 74, 248);
+    min-height: 100vh;
+    width: 300px;
+    float: left;
+}
+#right{
+    background-color: rgb(156, 165, 222);
+    min-height: 100vh;
+    width: 300px;
+    float: right;
+}
